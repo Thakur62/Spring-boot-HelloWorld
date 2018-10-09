@@ -17,7 +17,7 @@ import java.util.List;
 public class RoomController {
     @Autowired
     private RoomRepository repository;
-
+    /* Comment added */
     @RequestMapping(value="/rooms", method= RequestMethod.GET)
     List<Room> findAll(@RequestParam(required=false) String roomNumber){
     	List<Room> rooms = new ArrayList<>();
