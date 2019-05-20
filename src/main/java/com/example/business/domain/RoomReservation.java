@@ -1,7 +1,7 @@
 package com.example.business.domain;
 
 import java.util.Date;
-/* Bean Class*/
+/* Bean Class removed*/
 public class RoomReservation {
     private long roomId;
     private long guestId;
